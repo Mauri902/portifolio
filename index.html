@@ -29,7 +29,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#sobre">Sobre mim</a>
             </li>
@@ -46,34 +46,84 @@
     </nav>
   </header>
 
-  <main id="sobre" class="container">
-    <div class="row">
-      <div>
+  <main id="sobre" class="container my-3">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-md-7 gy-3">
         <h1>Olá! Eu sou Mauricio Sena</h1>
         <h2>Infraestrutura futuro Full-stack</h2>
-        <p>Atualmente, tenho 26 anos. Sou representande de sala do curos técnico em Informática com foco em Infraestrutura de redes e Desenvolvimento front-end</p>
+        <p class="pt-3">Atualmente, tenho 26 anos. Sou representande de sala do curos técnico em Informática com foco em
+          Infraestrutura de redes e Desenvolvimento front-end</p>
 
-        <div>
+        <div class="align-items-center">
           <a href="" target="_blank" aria-label="Contrar Mauricio Sena" class="btn btn-outline-info">Contrate-me</a>
-          <a href="https://github.com/Mauri902" target="_blank" aria-label="Perfil do Github do Mauricio Sena" class="btn btn-info">Projetos</a>
+          <a href="https://github.com/Mauri902" target="_blank" aria-label="Perfil do Github do Mauricio Sena"
+            class="btn btn-info">Projetos</a>
         </div>
-        <div>
+        <div class="pt-4">
           <a href="https://github.com/Mauri902" target="_blank" aria-label="Perfil do Github do Mauricio Sena">
-            <img src="./img/github.jpg" alt="Perfil do Github do Mauricio Sena"">
+            <img src="./img/github.png" alt="Perfil do Github do Mauricio Sena">
           </a>
-          <a href="https://www.linkedin.com/in/mauricio-afonso-bb3aa0212/" target="_blank" aria-label="Perfil do Linkedin do Mauricio Sena">
-            <img src="" alt="Perfil do Linkedin do Mauricio Sena">
+          <a href="https://www.linkedin.com/in/mauricio-afonso-bb3aa0212/" target="_blank"
+            aria-label="Perfil do Linkedin do Mauricio Sena">
+            <img src="./img/linkedin.png" alt="Perfil do Linkedin do Mauricio Sena">
           </a>
-          <a href="">
-            <img src="" alt="Perfil do Instagram do Mauricio Sena">
+          <a href="https://www.instagram.com/mauh_mauh01/">
+            <img src="./img/instagram.png" alt="Perfil do Instagram do Mauricio Sena">
           </a>
         </div>
       </div>
-      <div>
-        <img src="./img/faveicon(1).png" alt="Mauricio Sena">
+
+      <div class="col-lg-6 col-md-5 text-center">
+        <img src="./img/faveicon(1).png" alt="Mauricio Sena" class="img-fluid rounded-circle shadow-lg border border-info-subtle">
+
       </div>
     </div>
   </main>
+
+  <section id="Projetos" class="container py-5">
+    <h1 class="text-center">Meus Projetos</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/ativamente.png" class="card-img-top" alt="Hub de Links do Ativamente">
+          <div class="card-body  bg-light">
+            <h2 class="card-title">Hub de Links</h2>
+            <p class="card-text">Veja meu projeto de Hub de Links para o Instagram, feito com HTML5 e CSS3.</p>
+            <div class="text-center mt-3">
+              <a href="https://github.com/Mauri902/ativamente" target="_blank" class="btn btn-primary" disabled> <span>Projeto GitHub</span> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/biosport.png" class="card-img-top" alt="BioSport">
+          <div class="card-body">
+            <h2 class="card-title">Página One Page</h2>
+            <p class="card-text">Veja a página One Page que eu criei com HTML5 e CSS3 para a Academia BioSport.</p>
+            <div class="text-center">
+              <a href="https://github.com/Mauri902/academiabiosport" target="_blank" class="btn btn-primary" disabled> <span>Projeto GitHub </span> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/formulario.png" class="card-img-top" alt="formulario">
+          <div class="card-body">
+            <h2 class="card-title">Formulário para estudos</h2>
+            <p class="card-text">Veja meu Formulário de estudos feito com o CSS3 e HTML5.</p>
+            <div class="text-center">
+              <a href="https://github.com/Mauri902/Formularioestudios" target="_blank" class="btn btn-primary" disabled> <span>Projeto GitHub </span> </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
 
   <!-- POPER DO BUDSTRAP -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
